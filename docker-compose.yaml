@@ -3,3 +3,5 @@ services:
     container_name: todo-svc-restx
     restart: unless-stopped
     build: .
+    ports:
+      - "5000:5000"

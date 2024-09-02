@@ -1,0 +1,5 @@
+services:
+  todo-service:
+    container_name: todo-svc-restx
+    restart: unless-stopped
+    build: .
